@@ -1,1 +1,65 @@
+$theme-colors: (
+ 
+  "success": #178A1F
+);
+
+$green:   #178A1F;
+$light: #f7f7f7;
+$dark: #262626;
+$white: #ffffff;
+
+$enable-rounded: false;
+$enable-responsive-font-sizes: true;
+
+$font-family-base: 'Open Sans', sans-serif;
+$font-weight-base: 300;
+$font-weight-bold:600;
+$headings-font-weight: $font-weight-bold;
+
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 3.2;
+$h2-font-size: $font-size-base * 2.6;
+$lead-font-size: $font-size-base * 2.2;
+$spacer: 2rem;
+
+$navbar-nav-link-padding-x: 3rem;
+$navbar-toggler-font-size: 1.2rem;
+
+$hr-border-color: $green;
+$hr-border-width: 3px;
+$hr-width: 20%;
+
+$btn-padding-y: 0.7rem;
+$btn-padding-y-lg: 1rem;
+$btn-padding-y-sm: 0.5rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+*
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#imgdiv
+{
+	filter: brightness(20%);
+}
+
+hr
+{
+		width: 100px;
+}
+
+.border-md
+{
+		border-width: 3px;
+}
+
+.nav-link {
+  font-size: $font-size-lg;
+}
+
+
+
+
 
